@@ -1,10 +1,10 @@
 # skillet preamble information used by panhandler
 # ---------------------------------------------------------------------
 # unique snippet name
-name: Fischbach_Skillet_Class
+name: mySkillet
 # label used for menu selection
 label: Fischbach_Skillets_Class
-description: this is what my skillet does
+description: Using External Dynamic List and tags
 
 # type of device configuration
 # common types are panorama, panos, and template
