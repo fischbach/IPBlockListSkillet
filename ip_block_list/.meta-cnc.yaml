@@ -3,8 +3,8 @@
 # unique snippet name
 name: mySkillet
 # label used for menu selection
-label: Fischbach_Skillets_Class
-description: Using External Dynamic List and tags
+label: my_skillet_label
+description: this is what my skillet does
 
 # type of device configuration
 # common types are panorama, panos, and template
