@@ -27,19 +27,38 @@ labels:
 # type_hint defines the form field used by panhandler
 # type_hints can be text, ip_address, or dropdown
 variables:
-  - name: hostname
-    description: Firewall hostname
-    default: myFirewall
-    type_hint: text
-  - name: choices
-    description: sample dropdown list
-    default: choices
+  - name: tag_name
+    description: tag name
+    default: tagname
+    type_hint: Tag name goes here
+  - name: tag_color
+    description: Choose color
+    default: Red
     type_hint: dropdown
     dd_list:
-      - key: option1
-        value: option1
-      - key: option2
-        value: option2
+      - key: Red
+        value: color1
+      - key: Blue
+        value: color3
+      - key: Green
+        value: color22
+  - name: tag_description
+    description: Description
+    default: Description goes here
+    type_hint: text
+  - name: edl_name
+    description: EDL Name goes here
+    default: edl-out
+    type_hint: text
+  - name: edl_description
+    description: Description
+    default: Description goes here
+    type_hint: text
+  - name: url
+    description: url
+    default: Source URL goes here (http://url)
+    type_hint: text
+
 # ---------------------------------------------------------------------
 # end of variables section
 
