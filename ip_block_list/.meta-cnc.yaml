@@ -1,9 +1,9 @@
 # skillet preamble information used by panhandler
 # ---------------------------------------------------------------------
 # unique snippet name
-name: mySkillet
+name: Fischbach_Skillet_Class
 # label used for menu selection
-label: my_skillet_label
+label: Fischbach_Skillets_Class
 description: this is what my skillet does
 
 # type of device configuration
